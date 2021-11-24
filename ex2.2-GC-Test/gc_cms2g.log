@@ -1,0 +1,17 @@
+Java HotSpot(TM) 64-Bit Server VM (25.231-b11) for windows-amd64 JRE (1.8.0_231-b11), built on Oct  5 2019 03:11:30 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16539104k(9627924k free), swap 25976288k(12021940k free)
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:MaxNewSize=697933824 -XX:MaxTenuringThreshold=6 -XX:NewSize=697933824 -XX:OldPLABSize=16 -XX:OldSize=1395867648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
+2020-08-19T14:37:29.993+0530: 3.314: [GC (Allocation Failure) 2020-08-19T14:37:29.994+0530: 3.315: [ParNew: 545340K->66894K(613440K), 0.1505827 secs] 545340K->534105K(2029056K), 0.1509213 secs] [Times: user=0.72 sys=0.22, real=0.15 secs] 
+2020-08-19T14:37:43.233+0530: 16.553: [GC (Allocation Failure) 2020-08-19T14:37:43.233+0530: 16.553: [ParNew: 611349K->67956K(613440K), 0.1853726 secs] 1078561K->1078217K(2029056K), 0.1854883 secs] [Times: user=0.86 sys=0.22, real=0.18 secs] 
+2020-08-19T14:37:43.419+0530: 16.739: [GC (CMS Initial Mark) [1 CMS-initial-mark: 1010261K(1415616K)] 1079498K(2029056K), 0.0008972 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-08-19T14:37:43.420+0530: 16.740: [CMS-concurrent-mark-start]
+2020-08-19T14:37:43.424+0530: 16.744: [CMS-concurrent-mark: 0.004/0.004 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-08-19T14:37:43.424+0530: 16.744: [CMS-concurrent-preclean-start]
+2020-08-19T14:37:43.426+0530: 16.747: [CMS-concurrent-preclean: 0.002/0.002 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-08-19T14:37:43.426+0530: 16.747: [CMS-concurrent-abortable-preclean-start]
+ CMS: abort preclean due to time 2020-08-19T14:37:48.520+0530: 21.840: [CMS-concurrent-abortable-preclean: 0.098/5.094 secs] [Times: user=0.09 sys=0.00, real=5.09 secs] 
+2020-08-19T14:37:48.521+0530: 21.841: [GC (CMS Final Remark) [YG occupancy: 301444 K (613440 K)]2020-08-19T14:37:48.521+0530: 21.841: [Rescan (parallel) , 0.0011492 secs]2020-08-19T14:37:48.522+0530: 21.842: [weak refs processing, 0.0000125 secs]2020-08-19T14:37:48.522+0530: 21.842: [class unloading, 0.0003164 secs]2020-08-19T14:37:48.522+0530: 21.842: [scrub symbol table, 0.0004366 secs]2020-08-19T14:37:48.523+0530: 21.843: [scrub string table, 0.0000962 secs][1 CMS-remark: 1010261K(1415616K)] 1311705K(2029056K), 0.0020953 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+2020-08-19T14:37:48.523+0530: 21.843: [CMS-concurrent-sweep-start]
+2020-08-19T14:37:48.524+0530: 21.844: [CMS-concurrent-sweep: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-08-19T14:37:48.524+0530: 21.844: [CMS-concurrent-reset-start]
+2020-08-19T14:37:48.530+0530: 21.851: [CMS-concurrent-reset: 0.006/0.006 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 

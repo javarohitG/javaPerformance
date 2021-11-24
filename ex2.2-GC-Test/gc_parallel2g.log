@@ -1,0 +1,6 @@
+Java HotSpot(TM) 64-Bit Server VM (25.231-b11) for windows-amd64 JRE (1.8.0_231-b11), built on Oct  5 2019 03:11:30 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16539104k(8857048k free), swap 25976288k(12089516k free)
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2020-08-19T14:36:08.812+0530: 2.317: [GC (Allocation Failure) [PSYoungGen: 524038K->86289K(611840K)] 524038K->512542K(2010112K), 0.0801616 secs] [Times: user=0.09 sys=0.33, real=0.08 secs] 
+2020-08-19T14:36:21.977+0530: 15.483: [GC (Allocation Failure) [PSYoungGen: 611089K->86225K(611840K)] 1037342K->1034724K(2010112K), 0.0916876 secs] [Times: user=0.22 sys=0.23, real=0.09 secs] 
+2020-08-19T14:36:22.069+0530: 15.574: [Full GC (Ergonomics) [PSYoungGen: 86225K->0K(611840K)] [ParOldGen: 948499K->1034551K(1398272K)] 1034724K->1034551K(2010112K), [Metaspace: 2522K->2522K(1056768K)], 0.2021360 secs] [Times: user=0.86 sys=0.09, real=0.20 secs] 

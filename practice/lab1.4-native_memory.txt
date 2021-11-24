@@ -1,0 +1,16 @@
+1. To Enable NMT
+
+-XX:NativeMemoryTracking=[off | summary | detail]
+
+
+2. Use jcmd to Access NMT Data
+
+jcmd <pid> VM.native_memory [summary | detail | baseline | summary.diff | detail.diff | shutdown] 
+
+
+3. -XX:+AlwaysPreTouch
+Pre-touch the Java heap during JVM initialization. Every page of the heap is thus demand-zeroed 
+during initialization rather than incrementally during application execution.
+
+
+
